@@ -1,0 +1,58 @@
+.header{
+    text-align:center;
+    
+}
+
+body{
+    background-color: darkgreen;
+
+}
+
+h2 {
+    text-align:center;
+    color: white;
+    animation: animate 1.5s linear infinite;
+    border-style:groove;
+}
+
+@keyframes animate{
+    0%{opacity: 0;}
+}
+50%{
+    opacity:0.7;
+}
+100%{
+    opacity:0;
+}
+
+
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+ul{
+    text-align: center;
+    list-style: inside;
+    border: 3px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+p {
+    text-align:center;
+    border: 3px;
+    border-style:dashed;
+    padding: 1em;
+    font-size: 30px;
+
+}
+
+a {
+    text-align:center;
+    display: block;
+    font-size: 30px;
+
+}
